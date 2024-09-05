@@ -1,5 +1,6 @@
 # spring-resilience4j
 
+The **Resilience4j** library provides **Circuit Breaker**, **Retry**, and **Rate Limiter** features to enhance system resilience against failures. The **Circuit Breaker** prevents system instability by halting requests when certain error thresholds are exceeded. **Retry** reattempts operations a set number of times when errors occur, while the **Rate Limiter** ensures requests are processed within defined rate limits, preventing system overload.
 
 ```yaml
 server:
